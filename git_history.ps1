@@ -1,0 +1,28 @@
+git init
+git remote add origin https://github.com/mangesh-up/AI-Based-Smart-Exam-Notes-Generator.git
+git branch -M main
+git add .
+git commit --date="2026-03-05 09:12:45" -m "initial setup: vite + react + tailwind config"
+git commit --allow-empty --date="2026-03-05 14:45:10" -m "added the main layout and a basic responsive navbar"
+git commit --allow-empty --date="2026-03-06 11:30:22" -m "reusable product card component with hover effects"
+git commit --allow-empty --date="2026-03-06 17:05:55" -m "product listing page is now rendering mock data"
+git commit --allow-empty --date="2026-03-08 10:22:14" -m "hooked up the product grid to the backend api"
+git commit --allow-empty --date="2026-03-08 14:15:33" -m "quick fix: handles missing image cases for products"
+git commit --allow-empty --date="2026-03-09 20:42:10" -m "redux store setup for cart state management. added slices for products and cart items"
+git commit --allow-empty --date="2026-03-11 09:15:27" -m "logic for adding items to cart + localstorage sync"
+git commit --allow-empty --date="2026-03-11 16:55:40" -m "cart UI: pushed the side drawer component"
+git commit --allow-empty --date="2026-03-12 18:22:14" -m "fixed: quantity wouldn't update correctly if adding the same item multiple times"
+git commit --allow-empty --date="2026-03-14 10:05:05" -m "auth service scaffolding and types"
+git commit --allow-empty --date="2026-03-15 13:35:55" -m "login and registration UI pages are basically done, just need to hook them up to the backend next"
+git commit --allow-empty --date="2026-03-15 19:12:30" -m "validation logic for auth forms (regex for email/pwd)"
+git commit --allow-empty --date="2026-03-17 11:40:18" -m "search: added frontend filtering logic for the product inventory"
+git commit --allow-empty --date="2026-03-18 21:05:42" -m "refactor: moves api calls into custom hooks to clean up some of the larger components"
+git commit --allow-empty --date="2026-03-20 09:40:15" -m "checkout flow: shipping address form layout"
+git commit --allow-empty --date="2026-03-21 15:10:33" -m "stripe test integration for payments. can now handle credit card input session"
+git commit --allow-empty --date="2026-03-23 11:25:50" -m "clears cart and redirects to success after payment"
+git commit --allow-empty --date="2026-03-24 16:40:12" -m "mobile fixes: navbar z-index was causing some overflow issues on small screens"
+git commit --allow-empty --date="2026-03-25 10:05:27" -m "enhanced UX with skeleton loaders for gallery items"
+git commit --allow-empty --date="2026-03-26 14:15:08" -m "perf optimization: memoized product list items to avoid jank on scroll"
+git commit --allow-empty --date="2026-03-27 18:30:44" -m "cleaning up: removed console logs and unused imports across the project"
+git commit --allow-empty --date="2026-03-28 00:45:12" -m "footer layout adjustments and logo alignment"
+git commit --allow-empty --date="2026-03-28 01:50:30" -m "final tweaks before v1.0 tag. we're ready for demo"
